@@ -20,5 +20,6 @@ class Num_Romano:
                     i+=1
         return f'''
             El numero Romano es:  {resultado}
-                '''                   
+                '''          
+#print(Num_Romano(Numero_a_Romano,Lista_numeros,Lista_numeros_Romanos))
 print(Num_Romano(4,[40,10, 9, 5, 4,1],["XL","X", "IX", "V", "IV","I"]))
