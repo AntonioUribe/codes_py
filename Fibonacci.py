@@ -17,7 +17,9 @@ class Fibonacci():
     def grafica(self):
         return self.agregar()
 
-a=Fibonacci([0,1],10).grafica()
+    
+numero_posicion=int(input("Escribe el numero de posicion que deseas obtener de Fibonacci"))
+a=Fibonacci([0,1],numero_posicion).grafica()
 fig, ax = plt.subplots()
 ax.scatter(x = [x for  x in range(len(a))], y =a)
 plt.savefig('diagrama-dispersion.png')
