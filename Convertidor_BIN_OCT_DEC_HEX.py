@@ -1,5 +1,4 @@
-#Acepta convertir las bases 2,
-8,10,16
+#Acepta convertir las bases 2,8,10,16
 
 def Resultado (decimall,base_converter):
     resultado = ""
