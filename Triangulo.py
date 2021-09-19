@@ -5,8 +5,8 @@ class Triangulos():
         simbolo="*"
         numero_escalones=int(input("Escribe el numero de Escalones de tu triangulo"))
 
-        #La variable impares soporta hasta 50 escalones de piramide
-        impares=[2*x+1 for x in range(50)]
+        #La variable impares soporta hasta (numero_escalones) escalones de piramide
+        impares=[2*x+1 for x in range(numero_escalones)]
         numero_elementos=impares[numero_escalones-1]
 
         lista=[]
